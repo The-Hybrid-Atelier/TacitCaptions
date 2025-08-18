@@ -8,7 +8,9 @@ This repository is the official implementation of the GAS 2025 journal.
 
 ## Authors
 
-- [Lejun "Roy" Liao and Rohita Konjeti]
+- [Lejun "Roy" Liao](https://www.linkedin.com/in/lejun-liao-044470227/)
+- [Rohita Konjeti](https://www.linkedin.com/in/rohita-k/)
+- [Hoang "Charlie" Vuong](https://hybridatelier.uta.edu/members/159-charlie-vuong)
 - [Cesar Torres](http://hybridatelier.uta.edu/members/1-cesar-torres)
 
 ## Install Intruction
