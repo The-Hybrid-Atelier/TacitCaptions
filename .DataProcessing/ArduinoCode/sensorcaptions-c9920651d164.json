@@ -1,0 +1,13 @@
+{
+  "type": "service_account",
+  "project_id": "sensorcaptions",
+  "private_key_id": "XXX",
+  "private_key": "XXX",
+  "client_email": "XXX",
+  "client_id": "XXXX",
+  "auth_uri": "XXX",
+  "token_uri": "XXXX",
+  "auth_provider_x509_cert_url": "XXXX",
+  "client_x509_cert_url": "XXXX",
+  "universe_domain": "XXXX"
+}

@@ -1,0 +1,111 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+.text-outline {
+  text-shadow:
+    -2px -2px 0 #000,
+     2px -2px 0 #000,
+    -2px  2px 0 #000,
+     2px  2px 0 #000,
+    -2px  0px 0 #000,
+     2px  0px 0 #000,
+     0px -2px 0 #000,
+     0px  2px 0 #000;
+}
+
+
+html, body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+body {
+  /* color: rgb(var(--foreground-rgb));
+  background: linear-gradient(
+      to bottom,
+      transparent,
+      rgb(var(--background-end-rgb))
+    )
+    rgb(var(--background-start-rgb)); */
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
+
+/* centered column */
+.cc{ 
+  display: flex;
+  flex-wrap: nowrap;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.container {
+  display: flex;
+  height: 100vh;
+  position: relative;
+  padding: 20px;
+}
+
+.panel{
+  padding: 25px;
+  height: 100vh; /* Full viewport height */
+  overflow-y: auto; /* Vertical scrollbar */
+  overflow-x: hidden; /* Prevent horizontal scrolling */
+}
+
+.left-panel {
+  width: 30%;
+  background-color: #ffd66f; 
+  color: #000; 
+}
+
+.middle-panel {
+  width: 60%;
+  padding: 25px;
+  /* border-right: 1px solid #ccc; */
+  background-color: #5a8af4; 
+  position: relative;
+  color: #000; 
+}
+
+.right-panel {
+  width: 10%;
+  background-color: #9460fd; 
+}
+
+.mobile-top-panel {
+  height: 20%;
+  background-color: #ffffff; 
+}
+
+.mobile-middle-panel {
+  height: 60%;
+  background-color: #5a8af4; 
+}
+
+.mobile-bottom-panel {
+  height: 20%;
+  background-color: #9460fd; 
+}
