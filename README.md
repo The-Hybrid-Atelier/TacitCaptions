@@ -13,7 +13,7 @@ This repository is the official implementation of the GAS 2025 journal.
 - [Hoang "Charlie" Vuong](https://hybridatelier.uta.edu/members/159-charlie-vuong)
 - [Cesar Torres](http://hybridatelier.uta.edu/members/1-cesar-torres)
 
-## Install Instruction
+## Install Instructions
 
 NEXT.js app -- React Frontend
 https://nextjs.org/
